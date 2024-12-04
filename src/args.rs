@@ -14,7 +14,4 @@ pub struct GenomeArgs {
     pub upstream_arg: usize,
     /// please provide the downstream add from the sam alignments to be extracted
     pub downstream_arg: usize,
-    /// please provide the readlength of the sequencing reads
-    pub readlength_arg: usize,
-
 }

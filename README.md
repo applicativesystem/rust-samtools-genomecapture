@@ -31,6 +31,17 @@ Options:
 - how to run the binary
 
 ```
-```
+/target/debug/rust-samtools-genome-capture ./sample-files/alignreads-metagenomics.sam \
+                           ./sample-files/sample-list.txt ./sample-files/sample-ids.fasta 10 10
 
+``
+- result from the rust-samtools-genome-capture
+
+```
+selected-ids-downstream.fasta - downstream for those ids 
+selected-ids-reads.fasta - reads aligned to those ids.
+selected-ids-upstream.fasta - upstreams for those ids.
+selected-ids-upstream-region-downstream.fasta - upstream-region-downstream for those ids.
+
+```
 Gaurav Sablok
