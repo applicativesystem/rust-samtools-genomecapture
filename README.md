@@ -2,8 +2,7 @@
 
 - rust samtools genomecapture.
 - give the id list, reference genome, upstream and downstream and extracts the reference genome portion for the genome browser. 
--  rust-samtools-genome-capture: takes a genome alignment files, a reference fasta file, the upstream and the downstream regions and the path to the prank aligner and then
- aligns the extracted regions and also outputs a unaligned file.
+-  rust-samtools-genome-capture: takes a genome alignment files, a reference fasta file, the upstream and the downstream regions 
 - targetd capture assay development for taking reads from HybSeq.
 - general note: Incase of Golang and RUST, please see the last commit message and if it says compiled binary then it is completed or else still in development version.
 
