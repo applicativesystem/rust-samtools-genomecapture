@@ -33,8 +33,7 @@ Options:
 - how to run the binary
 
 ```
-/target/debug/rust-samtools-genome-capture ./sample-files/alignreads-metagenomics.sam \
-                           ./sample-files/sample-list.txt ./sample-files/sample-ids.fasta 10 10
+./rust-samtools-genome-capture ./sample-files/Col0_C1.100k_selected.sam ./sample-files/idlist.txt ./sample-files/sample-fasta.fasta 5 10
 
 ``
 - result from the rust-samtools-genome-capture
